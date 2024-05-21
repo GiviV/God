@@ -1,0 +1,8 @@
+<section class="god_container">
+    <app-search (searchTxt)="takeValue($event)"></app-search>
+   
+    
+
+    <app-card *ngFor="let god of godList" [god]="god"></app-card>
+</section>
+

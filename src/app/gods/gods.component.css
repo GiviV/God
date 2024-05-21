@@ -1,0 +1,8 @@
+.god_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 40px;
+    max-width: 1440px;
+    margin: auto;
+    gap: 52px;
+}
